@@ -14,6 +14,7 @@ body {
 main {
 	max-width: 800px;
 	margin: auto;
+	padding: 30px;
 }
 
 i {
@@ -29,7 +30,6 @@ h2 {
 	font-weight: bold;
 }
 
-h1,
 h2,
 p,
 li {
@@ -39,7 +39,6 @@ li {
 h1 {
 	text-align: center;
 	font-size: 1.8em;
-	margin-bottom: 30px;
 	padding: 50px 0;
 	background-color: var(--accent);
 	color: var(--bg);
