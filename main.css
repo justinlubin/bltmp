@@ -2,12 +2,13 @@ body {
 	--bg: #fff;
 	--fg: #000;
 	--accent: #005500;
+	--faded-accent: #aaccaa;
 
 	font-family: "Inter", sans-serif;
 	line-height: 1.5;
 	font-size: 18px;
 
-	background-color: var(--accent);
+	background-color: var(--faded-accent);
 	padding: 30px;
 }
 
@@ -19,6 +20,7 @@ main {
 	margin: auto;
 	padding: 30px;
 
+	border: 1px solid var(--accent);
 	border-radius: 5px;
 }
 
